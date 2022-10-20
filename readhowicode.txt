@@ -1,0 +1,16 @@
+for navigate our web to login page add this code    start
+ 1 make login componet then add this code in routing file
+
+
+  {
+    path:'', redirectTo:'login' ,pathMatch:'full'
+  },
+
+
+  {
+    path:'login', component:LoginComponent
+  },
+
+
+
+  for navigate our web to login page add this code    end 

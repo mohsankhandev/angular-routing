@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MuniComponent } from './muni/muni.component';
 import { AliComponent } from './ali/ali.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MuniComponent,
-    AliComponent
+    AliComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
