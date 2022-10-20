@@ -1,0 +1,10 @@
+<p>app comopnent main</p>
+<!--we define two links and set his path .. we define in routing file on which path which component will be loaded-->
+<a [routerLink]="['/ali']">ali link here </a><br>
+<a [routerLink]="['/muni']">muni link here </a>
+
+<!--button for load a specific component when any body click on  button . its define in t.s which componet will be loaded-->
+<button (click)="getd()">click on </button>
+
+<!--when any body click on any click then those compinent will be load on this router-outlet> -->
+<router-outlet></router-outlet>
