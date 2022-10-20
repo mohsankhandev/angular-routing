@@ -4,6 +4,7 @@ import {Routes, RouterModule} from '@angular/router'
 import { AliComponent } from './ali/ali.component';
 import { LoginComponent } from './login/login.component';
 import { MuniComponent } from './muni/muni.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 //const routes: Routes = [];
 
 const routes:Routes = [
@@ -19,6 +20,9 @@ const routes:Routes = [
   },
   {
     path:'muni' , component:MuniComponent
+  },
+  {
+    path:'**', component:PagenotfoundComponent
   }
 ];
 

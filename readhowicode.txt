@@ -14,3 +14,9 @@ for navigate our web to login page add this code    start
 
 
   for navigate our web to login page add this code    end 
+
+
+
+willcard route for page not found   start 
+
+willcard route for page not found   end 
